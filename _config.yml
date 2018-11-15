@@ -3,4 +3,4 @@ name: My Jekyll Website
 sass:
   sass_dir: _scss
 
-root: https://git.txstate.edu/pages/aps81/aps81.github.io
+root: https://git.txstate.edu/aps81/aps81.github.io
