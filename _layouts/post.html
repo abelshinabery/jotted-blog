@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  </head>
+
+  <body id="post-body">
+    <div id="grid-container">
+      {% include post-header.html %}
+      {% include nav.html %}
+      <main id="main">
+        <div class="post-container">
+          <article class="post">
+            <h2 id="post-title">{{ page.title }} <span class="green-text"></span></h2>
+            <p id="post-date">October 24, <span class="green-text">2018</span></p>
+            {{ content }}
+          </article>
+        </div>
+      </main>
+      {% include footer.html %}
+    </div>
+  </body>
+
+</html>

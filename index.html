@@ -1,0 +1,69 @@
+---
+title: home
+layout: default
+---
+
+<main id="main">
+    <section id="recent-articles">
+  {% for post in site.posts limit:4 %}
+    <div class="recent-preview-container">
+      <div class="preview-text-container">
+        <h2 class="article-preview-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="article-preview-text">{{ post.excerpt | strip_html }}</p>
+      </div>
+      <img class="preview-image" src="/assets/images/post-images/{{ post.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}">
+      <div class="read-button">read more</div>
+
+    </div>
+    {% endfor %}
+    <!-- <div class="recent-preview-container">
+      <div class="preview-text-container">
+        <h2 class="article-preview-title"><a href="#">Nature and the Mind</a></h2>
+        <p class="article-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum tellus eros, in vestibulum magna malesuada id. Ut mattis vestibulum velit id euismod. In hac habitasse platea dictumst.</p>
+      </div>
+      <img class="preview-image" src="https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+      <div class="read-button">read more</div>
+    </div>
+    <div class="recent-preview-container">
+      <div class="preview-text-container">
+        <h2 class="article-preview-title"><a href="#">Designing the Future</a></h2>
+        <p class="article-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum tellus eros, in vestibulum magna malesuada id. Ut mattis vestibulum velit id euismod. In hac habitasse platea dictumst.</p>
+      </div>
+      <img class="preview-image" src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+      <div class="read-button">read more</div>
+    -->
+  </section>
+
+  <section id="principle-preview">
+    <aside id="principle-articles-aside">
+      <div class="principle-article">
+        <h3 class="principle-title">
+          What is design?
+        </h3>
+        <p class="principle-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum tellus eros, in vestibulum magna malesuada id.</p>
+        <a class="principle-article-link"><div class="principle-button">
+          <p class="principle-button-text">learn more</p>
+        </div></a>
+      </div>
+      <div class="principle-article">
+        <h3 class="principle-title">
+          What is development?
+        </h3>
+        <p class="principle-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum tellus eros, in vestibulum magna malesuada id.</p>
+        <a class="principle-article-link"><div class="principle-button">
+            <p class="principle-button-text">learn more</p>
+        </div></a>
+      </div>
+      <div class="principle-article">
+        <h3 class="principle-title">
+          What is discovery?
+        </h3>
+
+        <p class="principle-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum tellus eros, in vestibulum magna malesuada id.</p>
+        <a class="principle-article-link"><div class="principle-button">
+            <p class="principle-button-text">learn more</p>
+        </div></a>
+      </div>
+    </aside>
+  </section>
+</main>
