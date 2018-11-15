@@ -2,5 +2,3 @@ name: My Jekyll Website
 
 sass:
   sass_dir: _scss
-
-baseurl: "aps81/aps81.github.io"
