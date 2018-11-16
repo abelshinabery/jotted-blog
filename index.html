@@ -11,7 +11,7 @@ layout: default
         <h2 class="article-preview-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
         <p class="article-preview-text">{{ post.excerpt | strip_html }}</p>
       </div>
-      <img class="preview-image" src="/assets/images/post-images/{{ post.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}">
+      <img class="preview-image" src="{{ site.url }}{{site.baseurl}}/assets/images/post-images/{{ post.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}">
       <div class="read-button">read more</div>
 
     </div>
