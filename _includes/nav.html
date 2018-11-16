@@ -1,21 +1,11 @@
 
-
-<!-- <nav id="nav">
-  <ul id="nav-text-container">
-    <li class="nav-text"><span id="current-page"><a href="/index.html">home</a></span></li>
-    <li class="nav-text"><a href="/about.html">about</a></li>
-    <li class="nav-text"><a href="/archive.html">archive</a></li>
-    <li class="nav-text"><a href="/contact.html">contact</a></li>
-  </ul>
-</nav> -->
-
 <nav id="nav">
   <ul id="nav-text-container">
     {% for nav in site.data.navigation %}
       {% if page.url == nav.link %}
-        <li class="nav-text"><span id="current-page"><a href="{{nav.link}}">{{nav.name}}</a></span></li>
+        <li class="nav-text"><span id="current-page"><a href="{{ site.url }}{{ site.baseurl }}{{nav.link}}">{{nav.name}}</a></span></li>
       {% else %}
-        <li class="nav-text"><a href="{{nav.link}}">{{nav.name}}</a></li>
+        <li class="nav-text"><a href="{{ site.url }}{{ site.baseurl }}{{nav.link}}">{{nav.name}}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
