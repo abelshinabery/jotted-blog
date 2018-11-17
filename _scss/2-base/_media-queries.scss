@@ -58,7 +58,8 @@ Media Queries
 
 	.recent-preview-container {
 		margin: 0;
-		position: static;
+		height: auto;
+		display: block;
 	}
 
 	.preview-text-container {
@@ -68,6 +69,7 @@ Media Queries
 		grid-template-areas: "title title"
 							 ". text";
 		position: static;
+		height: auto;
 		width: 100%;
 		background-color: transparent;
 		color: black;
@@ -97,9 +99,12 @@ Media Queries
 	}
 
 	.article-preview-text {
+		color: black;
 		font-size: 1em;
 		grid-area: text;
 		width: 300px;
+		margin-top: 35px;
+		align-self: start;
 	}
 
 	.read-button {
