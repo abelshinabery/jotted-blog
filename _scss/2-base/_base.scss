@@ -45,12 +45,14 @@ Title
 =====
 */
 
-header { text-align: center; }
-
-#jotted-title {
-	font-size: 7em;
-	color: #349E7A;
+header {
+	text-align: center;
+	h1 {
+		font-size: 7em;
+		color: #349E7A;
+	}
 }
+
 
 /*
 ===
