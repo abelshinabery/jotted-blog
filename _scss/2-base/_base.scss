@@ -6,11 +6,13 @@ Height and font for entire page.
 ================================
 */
 
-html { height: 100vh; }
+html {
+	height: 100vh;
+ }
 
 body {
 	min-height: 100%;
-	font-family: Raleway, helvetica;
+	font-family: $main-font;
 }
 
 /*
