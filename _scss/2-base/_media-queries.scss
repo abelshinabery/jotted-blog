@@ -28,7 +28,7 @@ Media Queries
 	======
 	*/
 
-	header { text-align: left; }
+	#header { text-align: left; }
 
 	/*
 	===
@@ -109,7 +109,7 @@ Media Queries
 		position: relative;
 		font-size: .8em;
 		font-variant: small-caps;
-		font-family: Raleway, helvetica;
+		color: white !important;
 		bottom: 160px;
 		width: 6em;
 		height: 2em;

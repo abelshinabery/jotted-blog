@@ -5,17 +5,16 @@ layout: default
 
 <main id="main">
     <section id="recent-articles">
-  {% for post in site.posts limit:4 %}
-    <div class="recent-preview-container">
-      <div class="preview-text-container">
-        <h2 class="article-preview-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="article-preview-text">{{ post.excerpt | strip_html }}</p>
-      </div>
-      <img class="preview-image" src="{{ site.url }}{{site.baseurl}}/assets/images/post-images/{{ post.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}">
-      <div class="read-button">read more</div>
-
-    </div>
-    {% endfor %}
+      {% for post in site.posts limit:4 %}
+        <div class="recent-preview-container">
+          <div class="preview-text-container">
+            <h2 class="article-preview-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <h3 class="article-preview-text">{{ post.excerpt | strip_html }}</h3>
+          </div>
+          <img class="preview-image" src="{{ site.url }}{{site.baseurl}}/assets/images/post-images/{{ post.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}">
+          <button class="read-button">read more</button>
+        </div>
+      {% endfor %}
   </section>
 
   <section id="principle-preview">
