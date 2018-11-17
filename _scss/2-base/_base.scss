@@ -1,21 +1,9 @@
 /*
-================
-Reusable classes
-================
-*/
-
-.green-text {
-	color: #349E7A;
-}
-
-.orange-text {
-	color: #F27272;
-}
-
-/*
-====
-Home
-====
+================================
+HTML and body config
+--------------------------------
+Height and font for entire page.
+================================
 */
 
 html { height: 100vh; }
@@ -26,9 +14,11 @@ body {
 }
 
 /*
-==========
+================================
 Grid Setup
-==========
+--------------------------------
+Grid template configuration.
+================================
 */
 
 #grid-container {
@@ -59,7 +49,6 @@ header { text-align: center; }
 
 #jotted-title {
 	font-size: 7em;
-	font-family: Raleway, helvetica;
 	color: #349E7A;
 }
 
