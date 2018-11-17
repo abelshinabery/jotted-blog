@@ -11,6 +11,7 @@ html { height: 100vh; }
 body {
 	min-height: 100%;
 	font-family: $main-font;
+	font-weight: 300;
 }
 
 /*
@@ -48,6 +49,7 @@ Title
 
 #title {
 	font-size: 7em;
+	font-weight: 500;
 	color: $primary-color;
 }
 
