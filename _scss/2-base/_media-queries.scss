@@ -60,6 +60,9 @@ Media Queries
 		margin: 0;
 		height: auto;
 		display: block;
+		a {
+			text-decoration: none;
+		}
 	}
 
 	.preview-text-container {
@@ -80,7 +83,6 @@ Media Queries
 		height: 150px;
 		position: relative;
 		bottom: 160px;
-		border: 1px solid black;
 	}
 
 	.preview-image:hover {
@@ -95,7 +97,11 @@ Media Queries
 
 	.article-preview-title a {
 		color: black;
-		border-bottom: 1px solid $secondary-color;
+		font-weight: 500;
+		border-bottom: 1px solid $primary-color;
+		&:hover {
+			color: $secondary-color;
+		}
 	}
 
 	.article-preview-text {
@@ -117,7 +123,6 @@ Media Queries
 		bottom: 160px;
 		width: 6em;
 		height: 2em;
-		border-radius: 3px;
 		background-color: #349E7A;
 	}
 
@@ -137,7 +142,7 @@ Media Queries
 	.principle-title {
 		align-self: center;
 		font-family: Raleway, helvetica;
-		font-size: 2em;
+		font-size: 1.5em;
 		color: #349E7A;
 	}
 
@@ -145,7 +150,7 @@ Media Queries
 		font-family: Montserrat, Raleway;
 		font-size: .9em;
 		color: grey;
-		width: 300px;
+		width: 250px;
 	}
 
 	.principle-article-link {

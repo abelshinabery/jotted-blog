@@ -100,4 +100,13 @@ button,
   -webkit-appearance: button;
 	border-style: none;
 	font-family: $main-font;
+	border-radius: 0;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	cursor: pointer;
 }
