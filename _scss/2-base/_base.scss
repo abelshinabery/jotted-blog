@@ -82,7 +82,7 @@ Main
 =====
 */
 
-
+//Recent articles
 #recent-articles {
 	display: flex;
 	flex-direction: column;
@@ -90,34 +90,17 @@ Main
 
 .recent-preview-container {
 	display: flex;
-	position: relative;
 	height: 60em;
 	margin: 10em 0;
 	padding: 0;
 }
 
-.preview-image {
-	max-width: 100%;
-	height: auto;
-}
-
 .article-preview-title {
 	font-size: 5em;
-	margin-top: 10px;
-}
-
-.article-preview-title a {
-	text-decoration: none;
-	color: white;
-}
-
-.article-preview-text {
-	color: white;
-	margin-top: 2em;
-	font-family: Montserrat, Raleway;
-	font-size: 2em;
-	line-height: 1.5;
-	width: 70%;
+	a {
+		text-decoration: none;
+		color: white;
+	}
 }
 
 .preview-text-container {
@@ -132,10 +115,27 @@ Main
 	justify-content: center;
 }
 
+.article-preview-text {
+	color: white;
+	font-family: Montserrat, Raleway;
+	font-size: 2em;
+	line-height: 1.5;
+	margin-top: 2em;
+	width: 70%;
+}
+
+
+.preview-image {
+	max-width: 100%;
+	height: auto;
+}
+
 .read-button {
 	display: none;
 }
 
+
+//Principle articles
 #principle-articles-aside {
 	display: flex;
 	flex-direction: column;
