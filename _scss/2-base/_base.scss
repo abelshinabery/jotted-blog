@@ -100,7 +100,7 @@ Main
 .article-preview-title {
 	font-size: 5em;
 	a {
-		font-weight: 700;
+		font-weight: 500;
 		text-decoration: none;
 		color: white;
 	}
@@ -120,7 +120,8 @@ Main
 
 .article-preview-text {
 	color: white;
-	font-family: Montserrat, Raleway;
+	font-family: $post-font;
+	font-weight: 400;
 	font-size: 3em;
 	line-height: 1.5;
 	margin-top: 2em;
@@ -159,13 +160,12 @@ Main
 }
 
 .principle-title {
-	font-family: Raleway, helvetica;
 	font-size: 5em;
 	color: $primary-color;
 }
 
 .principle-text {
-	font-family: Montserrat, Raleway;
+	font-family: $post-font;
 	font-size: 2em;
 	margin: 0 auto;
 	width: 85%;
