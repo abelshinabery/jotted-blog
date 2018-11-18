@@ -97,7 +97,7 @@ Media Queries
 
 	.article-preview-title a {
 		color: black;
-		font-weight: 500;
+		font-weight: 300;
 		border-bottom: 1px solid $primary-color;
 		&:hover {
 			color: $secondary-color;
@@ -161,13 +161,11 @@ Media Queries
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 5em;
+		width: 6em;
 		height: 1.2em;
 		margin-top: 15px;
-	}
-
-	.principle-button-text {
 		font-size: .8em;
+		border-radius: 2px;
 	}
 
 	/*
