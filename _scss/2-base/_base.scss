@@ -45,7 +45,12 @@ Title
 =====
 */
 
-#header { text-align: center; }
+#header {
+	text-align: center;
+	a {
+		text-decoration: none;
+	}
+}
 
 #title {
 	font-size: 7em;
