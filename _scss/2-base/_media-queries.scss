@@ -110,15 +110,18 @@ Media Queries
 		align-self: start;
 	}
 
+	.read-more-link {
+		position: relative;
+		bottom: 160px;
+	}
+
 	.read-button {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		color: white;
-		position: relative;
 		font-size: .95em;
 		color: white !important;
-		bottom: 160px;
 		width: 6em;
 		height: 2em;
 		background-color: #349E7A;
