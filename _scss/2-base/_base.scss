@@ -103,7 +103,6 @@ Main
 	justify-content: center;
 	align-items: center;
 	height: 60em;
-	margin: 10em 0;
 	padding: 0;
 	a {
 		text-decoration: none;
@@ -155,8 +154,20 @@ Main
 	height: auto;
 }
 
+.read-more-link {
+	position: relative;
+	bottom: 100px;
+	align-self: center;
+	text-decoration: none;
+}
+
 .read-button {
-	display: none;
+	width: 8em;
+	height: 1.5em;
+	font-size: 3em;
+	background-color: $primary-color;
+	color: white;
+	border-radius: 10px;
 }
 
 

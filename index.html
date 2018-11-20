@@ -9,12 +9,13 @@ layout: default
         <div class="recent-preview-container">
           <div class="preview-text-container">
             <h2 class="article-preview-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <h3 class="article-preview-text"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.excerpt | strip_html | truncate: 156 }}</a></h3>
+            <h3 class="article-preview-text"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.excerpt | strip_html | truncate: 150 }}</a></h3>
           </div>
 
           <img class="preview-image" src="{{ site.url }}{{site.baseurl}}/assets/images/post-images/{{ post.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}">
-          <a class="read-more-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><button class="read-button">read more</button></a>
+
         </div>
+        <a class="read-more-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><button class="read-button">read more</button></a>
       {% endfor %}
   </section>
 

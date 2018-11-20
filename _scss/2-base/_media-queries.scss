@@ -111,9 +111,8 @@ Media Queries
 	}
 
 	.read-more-link {
-		position: relative;
-		bottom: 130px;
-		right: 205px;
+		align-self: flex-start;
+		bottom: 150px;
 	}
 
 	.read-button {
@@ -126,6 +125,7 @@ Media Queries
 		width: 6em;
 		height: 2em;
 		background-color: #349E7A;
+		border-radius: 0;
 		margin: 0;
 	}
 
