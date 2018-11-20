@@ -3,7 +3,10 @@ layout: post
 title: What is design?
 ---
 
-I suppose a better question is really: What does design mean to you? Design is so individual that trying to come up with an end-all-be-all explanation will always fall short of the truth because I’m not honestly sure if there is one. We can, however, speculate. What we do know is that design is a process. It has steps to take in order to be completed and has a goal in mind for the end user.
+I suppose a better question is really: What does design mean to you?
+
+
+Design is so individual that trying to come up with an end-all-be-all explanation will always fall short of the truth because I’m not honestly sure if there is one. We can, however, speculate. What we do know is that design is a process. It has steps to take in order to be completed and has a goal in mind for the end user.
 
 
 Uncle Google gives us this response when we ask this philosophical question:  
