@@ -112,11 +112,12 @@ Media Queries
 
 	.read-more-link {
 		position: relative;
-		bottom: 160px;
+		bottom: 130px;
+		right: 205px;
 	}
 
 	.read-button {
-		display: flex;
+		display: inline-flex;
 		justify-content: center;
 		align-items: center;
 		color: white;
@@ -125,6 +126,7 @@ Media Queries
 		width: 6em;
 		height: 2em;
 		background-color: #349E7A;
+		margin: 0;
 	}
 
 	#principle-articles-aside:first-child {
