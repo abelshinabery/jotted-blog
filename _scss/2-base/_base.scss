@@ -248,8 +248,11 @@ about
 }
 
 .about-section-title {
-	font-size: 4.5em;
-	font-family: $main-font;
+	font: {
+		size: 4.5em;
+		family: $main-font;
+		weight: 500;
+	}
 	margin-top: 2em;
 }
 
@@ -277,20 +280,24 @@ Archive
 }
 
 .archive-month {
-	font-size: 4.5em;
-	font-family: Montserrat, helvetica;
+	font: {
+		size: 4.5em;
+		family: $main-font;
+		weight: 500;
+	}
 	margin-top: 2em;
 }
 
 .posts-from-month {
-	font-size: 2.4em;
-	margin: 3em 0;
+	font-size: 3em;
+	font-family: $post-font;
+	margin: 1em 0;
 	line-height: 2.5;
-}
-
-.posts-from-month a {
-	color: black;
-	text-decoration: none;
+	a {
+		color: black;
+		text-decoration: none;
+		border-bottom: 2px solid $primary-color;
+	}
 }
 
 /*
@@ -303,18 +310,24 @@ Contact
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	form {
+		width: 90%;
+	}
 }
 
 #contact-heading {
 
-	font-family: Monstserrat, helvetica;
-	font-size: 3em;
-	margin-top: 5em;
+	font: {
+		family: $main-font;
+		size: 4.5em;
+		weight: 500;
+	}
+	margin-top: 2em;
 	margin-bottom: 1em;
 }
 
 #contact-sub {
-	font-family: Raleway, helvetica;
+	font-family: $post-font;
 	font-size: 2.2em;
 }
 
@@ -330,6 +343,7 @@ Contact
 	border: none;
 	border-bottom: 1px solid black;
 	font-size: 2em;
+	font-family: $post-font;
 }
 
 .form-control {
@@ -341,7 +355,7 @@ textarea {
 	border: none;
 	border-bottom: 1px solid black;
 	outline: none;
-	font-family: Monstserrat, helvetica;
+	font-family: $post-font;
 	font-size: 2em;
 }
 
@@ -349,7 +363,7 @@ textarea {
 	border: none;
 	margin-bottom: 5em;
 	height: 2em;
-	background-color: $primary-color;
+	background-color: $secondary-color;
 	color: white;
 }
 
