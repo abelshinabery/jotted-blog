@@ -229,7 +229,7 @@ Footer
 
 #email {
 	color: white;
-	font-family: Montserrat, helvetica;
+	font-family: $post-font;
 	font-size: 2em;
 }
 
@@ -249,16 +249,19 @@ about
 
 .about-section-title {
 	font-size: 4.5em;
-	font-family: $post-font;
+	font-family: $main-font;
 	margin-top: 2em;
 }
 
 .about-section-text {
-	font-size: 2.4em;
+	font: {
+		family: $post-font;
+		color: white;
+		size: 2.6em;
+	}
 	line-height: 1.5;
 	margin: 3em 0 2em 0;
 }
-
 
 /*
 =======

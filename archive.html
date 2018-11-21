@@ -6,24 +6,18 @@ layout: default
 <main id="main">
   <section id="archive">
     <div id="archive-container">
-      <h2 class="archive-month">November <span class="green-text">2018</h2>
-      <ul class="posts-from-month">
-        <li><a href="#">One Post</a></li>
-        <li><a href="#">Two Post</a></li>
-        <li><a href="#">Three Post</a></li>
-        <li><a href="#">Four Post</a></li>
-      </ul>
-      <h2 class="archive-month">
-      October <span class="green-text">
-        2018
-      </span>
-      </h2>
-      <ul class="posts-from-month">
-        <li><a href="#">One Post</a></li>
-        <li><a href="#">Two Post</a></li>
-        <li><a href="#">Three Post</a></li>
-        <li><a href="#">Four Post</a></li>
-      </ul>
+      {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+      {% for year in postsByYear %}
+        {% assign postsByMonth = year.items | group_by_exp: "post", "post.date | date: '%B'" %}
+        {% for month in postsByMonth %}
+        <h2 class="archive-month">{{ month.name}} <span class="green-text">{{ year.name }}</span></h2>
+          <ul class="posts-from-month">
+          {% for post in month.items %}
+              <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+         </ul>
+        {% endfor %}
+      {% endfor %}
     </div>
   </section>
 </main>
