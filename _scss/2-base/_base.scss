@@ -344,6 +344,8 @@ Contact
 	border-bottom: 1px solid black;
 	font-size: 2em;
 	font-family: $post-font;
+	-webkit-appearance: none;
+	border-radius: 0;
 }
 
 .form-control {
@@ -357,6 +359,8 @@ textarea {
 	outline: none;
 	font-family: $post-font;
 	font-size: 2em;
+	-webkit-appearance: none;
+	border-radius: 0;
 }
 
 #contact-form [type="submit"] {
@@ -365,6 +369,8 @@ textarea {
 	height: 2em;
 	background-color: $secondary-color;
 	color: white;
+	-webkit-appearance: none;
+	border-radius: 0;
 }
 
 
