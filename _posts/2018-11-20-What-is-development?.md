@@ -3,6 +3,6 @@ layout: post
 title: What is development?
 ---
 
-When was the last time you explored what really makes you happy?
+Computers are hard. But you can't let them win.
 
-Do you do that for a living? Why not? I like to think of it as a challenge to figure out what you want and chase after it.
+Every time I read an article during my introduction to programming the author would tell me that I was smarter than the computer and that the computer will only do what I tell it to do. Well any person stuck in configuration hell for 5 hours will beg to differ. 

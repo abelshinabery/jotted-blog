@@ -189,6 +189,9 @@ Main
 	height: 50em;
 	margin: 10em auto 0 auto;
 	text-align: center;
+	a {
+		text-decoration: none;
+	}
 }
 
 .principle-title {
@@ -264,6 +267,10 @@ about
 	}
 	line-height: 1.5;
 	margin: 3em 0 2em 0;
+	a {
+		text-decoration: none;
+		color: $primary-color;
+	}
 }
 
 /*
