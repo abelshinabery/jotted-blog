@@ -3,5 +3,5 @@ name: My Jekyll Website
 sass:
   sass_dir: _scss
 
-baseurl: /pages/aps81/aps81.github.io
-url: "https://git.txstate.edu"
+baseurl: 
+url: "jottedblog.com"
