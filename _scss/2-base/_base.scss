@@ -395,7 +395,42 @@ Posts
 .post {
 	display: flex;
 	flex-direction: column;
+	li {
+		list-style: decimal;
+		margin: 0 2em 4em 5em;
+		font-size: 2em;
+		line-height: 1.5;
+		font-weight: 400;
+		background-color: $primary-color;
+		border-radius: 5px;
+		padding: 5px;
+		span {
+			color: white;
+		}
+	}
+	p {
+		font-family: $post-font;
+		font-size: 2.2em;
+		line-height: 1.5;
+	}
+	h2 {
+		font-size: 3em;
+	}
+	h3 {
+		font-size: 2.5em;
+	}
 }
+
+.post p, .post h2, .post h3 {
+	width: 90%;
+	margin: 0 auto 3em auto;
+}
+
+.post h2, .post h3 {
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
 
 #post-title {
 	font-size: 5em;
@@ -411,35 +446,3 @@ Posts
 	margin-left: 2em;
 	margin-bottom: 1.5em;
 }
-
-
-.post li {
-	list-style: decimal;
-	margin: 0 0 4em 5em;
-	font-family: Raleway, helvetica;
-	font-size: 1.5em;
-	line-height: 1.5;
-	font-weight: 400;
-	background-color: #ddd;
-	border-radius: 5px;
-	padding: 5px;
-}
-.post p, .post h2, .post h3 {
-	width: 90%;
-	margin: 0 auto 3em auto;
-}
-
-.post p {
-	font-family: Montserrat, helvetica;
-	font-size: 2em;
-	line-height: 1.5;
-}
-
-.post h2, .post h3 {
-	font-weight: bold;
-	margin-bottom: 1em;
-}
-
-.post h2 {
-	font-size: 3em;
-	}

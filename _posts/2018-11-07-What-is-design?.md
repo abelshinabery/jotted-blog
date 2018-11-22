@@ -10,8 +10,8 @@ Design is so individual that trying to come up with an end-all-be-all explanatio
 
 
 Uncle Google gives us this response when we ask this philosophical question:  
-1. a plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made  
-2. purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object.
+1. <span>a plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made</span>
+2. <span>purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object</span>
 
 
 The first definition could be read as a blueprint for something yet to be created. You could think of a construction plan for a building, or a wireframe for a website (the drawn skeleton of how a website may look in the early designing stage), as manifestations of this idea. This is purely cosmetic and, in most cases, produces a beautiful outcome if done correctly. This definition also implies that design is applicable to every single industry that needs an “object” to be built or made. I like to translate this to “anything that can be created and takes up physical space”.
@@ -67,10 +67,10 @@ Whichever ideal you subscribe to, it’s important to remember that designing is
 ## Formula for Designing Success
 
 
-1. Decide on a purpose
-2. Identify the users
-3. List the specifications
-4. Create a blueprint
+1. <span>Decide on a purpose</span>
+2. <span>Identify the users</span>
+3. <span>List the specifications</span>
+4. <span>Create a blueprint</span>
 
 
 ### Decide on a Purpose
