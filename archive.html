@@ -13,7 +13,7 @@ layout: default
         <h2 class="archive-month">{{ month.name}} <span class="green-text">{{ year.name }}</span></h2>
           <ul class="posts-from-month">
           {% for post in month.items %}
-              <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
          </ul>
         {% endfor %}
