@@ -8,14 +8,14 @@ layout: default
       {% for post in site.posts limit:4 %}
         <div class="recent-preview-container">
           <div class="preview-text-container">
-            <h2 class="article-preview-title"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <h3 class="article-preview-text"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.excerpt | strip_html }}</a></h3>
+            <h2 class="article-preview-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h3 class="article-preview-text"><a href="{{ post.url }}">{{ post.excerpt | strip_html }}</a></h3>
           </div>
 
-          <img class="preview-image" src="{{ site.url }}{{site.baseurl}}/assets/images/post-images/{{ post.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}">
+          <img class="preview-image" src="/assets/images/post-images/{{ post.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}">
 
         </div>
-        <a class="read-more-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><button class="read-button">read more</button></a>
+        <a class="read-more-link" href="{{ post.url }}"><button class="read-button">read more</button></a>
       {% endfor %}
   </section>
 
@@ -26,14 +26,14 @@ layout: default
           What is design?
         </h3>
         <p class="principle-text">Design is something I hold dear to my heart, even though it has the power to make me reconsider my entire developing talent at times.</p>
-        <a href="{{ site.url }}{{ site.baseurl }}/2018/11/07/What-is-design.html" class="principle-article-link"><button class="principle-button">learn more</button></a>
+        <a href="/2018/11/07/What-is-design.html" class="principle-article-link"><button class="principle-button">learn more</button></a>
       </div>
       <div class="principle-article">
         <h3 class="principle-title">
           What is development?
         </h3>
         <p class="principle-text">Development made me who I am today and taught me that life can sometimes be as simple as zeros and ones.</p>
-        <a href="{{ site.url }}{{ site.baseurl }}/2018/11/20/What-is-development.html" class="principle-article-link"><button class="principle-button">learn more</button></a>
+        <a href="/2018/11/20/What-is-development.html" class="principle-article-link"><button class="principle-button">learn more</button></a>
       </div>
       <div class="principle-article">
         <h3 class="principle-title">
@@ -41,7 +41,7 @@ layout: default
         </h3>
 
         <p class="principle-text">Discovery helps put those with wandering minds at ease and gives those stationary enough to relax a chance to stir things up a bit.</p>
-        <a href="{{ site.url }}{{ site.baseurl }}/2018/11/20/What-is-discovery.html" class="principle-article-link"><button class="principle-button">learn more</button></a>
+        <a href="/2018/11/20/What-is-discovery.html" class="principle-article-link"><button class="principle-button">learn more</button></a>
       </div>
     </aside>
   </section>
