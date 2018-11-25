@@ -276,11 +276,16 @@ Media Queries
 	*/
 
 	.post-container {
-		width: 60%;
+		width: 70%;
+	}
+
+	#post-banner {
+		height: 100px;
 	}
 
 	#post-title {
-		margin: 0 0 1.5em 0;
+		font-size: 5em;
+		margin: .5em 0;
 		align-self: flex-start;
 	}
 
@@ -292,25 +297,23 @@ Media Queries
 		font-size: .8em;
 	}
 
-	.post li {
-		font-size: .9em;
+	.post {
+		li {
+			font-size: .9em;
+		}
+		p {
+			font-size: 1.1em;
+		}
+		h2 {
+			font-size: 2em;
+		}
+		h3 {
+			font-size: 1.5em;
+		}
 	}
 
 	.post p, .post h2, .post h3 {
 		width: 100%;
-	}
-
-	.post p {
-
-		font-size: 1.1em;
-	}
-
-	.post h2 {
-		font-size: 2em;
-	}
-
-	.post h3 {
-		font-size: 1.5em;
 	}
 
 }
