@@ -26,7 +26,7 @@ Neither of these really cover the entire scope of design (unless you count websi
 ## Purpose
 
  What I would like to focus on with this article, is the second definition, more specifically the idea of purpose. If I were to be bold and say that this is design:
- 
+
  ![Facebook's homepage layout](/assets/images/post-images/FacebookWireframe.jpg "Facebook wireframe")
 
  Then I think many web developers would agree with me, or at least that this is a step inside a larger system of designing. The example above is Facebook’s homepage and I chose this to make a point about purpose.  
