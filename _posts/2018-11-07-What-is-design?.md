@@ -3,14 +3,12 @@ layout: post
 title: What is design?
 ---
 
-I suppose a better question is really: What does design mean to you?
-
-Design is so individual that trying to come up with an end-all-be-all explanation will always fall short of the truth because I’m not honestly sure if there is one. We can, however, speculate. What we do know is that design is a process. It has steps to take in order to be completed and has a goal in mind for the end user.
+I suppose a better question is really: What does design mean to you? Design is so individual that trying to come up with an end-all-be-all explanation will always fall short of the truth because I’m not honestly sure if there is one. We can, however, speculate. What we do know is that design is a process. It has steps to take in order to be completed and has a goal in mind for the end user.
 
 
 Uncle Google gives us this response when we ask this philosophical question:  
-1. <span>a plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made</span>
-2. <span>purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object</span>
+1. a plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made
+2. purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object
 
 
 The first definition could be read as a blueprint for something yet to be created. You could think of a construction plan for a building, or a wireframe for a website (the drawn skeleton of how a website may look in the early designing stage), as manifestations of this idea. This is purely cosmetic and, in most cases, produces a beautiful outcome if done correctly. This definition also implies that design is applicable to every single industry that needs an “object” to be built or made. I like to translate this to “anything that can be created and takes up physical space”.
