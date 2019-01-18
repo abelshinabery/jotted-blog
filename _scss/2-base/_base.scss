@@ -61,24 +61,6 @@ Title
 	}
 }
 
-#title-word-animate {
-	animation-name: slidein;
-	animation-duration: 2s;
-	//Decided to change to relative positioning for the animation because using
-	//the margin-left method was pushing the "Jotted" left. This way the "blog"
-	//comes from the side of the screen, seeming to appear from nowhere.
-	position: relative;
-}
-
-@keyframes slidein {
-	from {
-		left: 100%;
-	}
-	to {
-		left: 0%;
-	}
-}
-
 
 /*
 ===
