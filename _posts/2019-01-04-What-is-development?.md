@@ -5,7 +5,7 @@ title: What is development?
 
 Development is traditionally a process that takes place over time and is closely linked to the growth of skills, fluidity and difficulty level of a certain task, such as an athlete being trained or sharpening one’s critical thinking.
 
-However, these are optional and are not by any means requirements of the process, they are just the most popular ideas that spring up when talking about development in general.
+36However, these are optional and are not by any means requirements of the process, they are just the most popular ideas that spring up when talking about development in general.
 
 Development in the work force usually means the ongoing attention that is being paid to a project. More specifically, in the computer science world, development is often boiled down to coding or the act of coding. Once you’ve spent some time playing around with a computer language it is pretty easy to see why this became a popular synonym and also why the most logical step was to start calling those who code developers.
 
