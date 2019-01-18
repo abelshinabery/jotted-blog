@@ -47,15 +47,36 @@ Title
 
 #header {
 	text-align: center;
-	a {
-		text-decoration: none;
-	}
+	//Overflow is hidden to prevent the slidein animation from changing the width
+	//of the header and breaking the layout.
+	overflow: hidden;
 }
 
 #title {
 	font-size: 7em;
 	font-weight: 500;
-	color: $primary-color;
+	a {
+		color: $primary-color;
+		text-decoration: none;
+	}
+}
+
+#title-word-animate {
+	animation-name: slidein;
+	animation-duration: 2s;
+	//Decided to change to relative positioning for the animation because using
+	//the margin-left method was pushing the "Jotted" left. This way the "blog"
+	//comes from the side of the screen, seeming to appear from nowhere.
+	position: relative;
+}
+
+@keyframes slidein {
+	from {
+		left: 100%;
+	}
+	to {
+		left: 0%;
+	}
 }
 
 
