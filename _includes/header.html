@@ -1,3 +1,11 @@
 <header id="header">
   <h1 id="title"><a href="{{nav.link}}/">Jotted<span class="orange-text" id="title-blog">blog</span></a>
 </header>
+<div id="main-banner"></div>
+<style>
+  #main-banner {
+    background-image: url("/assets/images/post-images/{{ page.title | replace: ' ', '-' | remove: '?' | append: '.jpg' }}");
+    background-size: cover;
+    background-position: center;
+  }
+</style>

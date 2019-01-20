@@ -40,7 +40,7 @@ Grid template configuration.
 
 /*
 =====
-Title
+Header
 =====
 */
 
@@ -60,6 +60,11 @@ Title
 
 #title-blog {
 	font-family: 'Indie Flower', cursive;
+}
+
+#main-banner {
+	grid-area: banner;
+	background: $primary-color;
 }
 
 
