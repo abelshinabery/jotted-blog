@@ -51,7 +51,7 @@ Header
 
 #title {
 	font-size: 7em;
-	font-weight: 500;
+	font-weight: 300;
 	a {
 		color: $primary-color;
 		text-decoration: none;
@@ -64,7 +64,6 @@ Header
 
 #main-banner {
 	grid-area: banner;
-	background: $primary-color;
 }
 
 
