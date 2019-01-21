@@ -16,6 +16,7 @@ Media Queries
 	}
 }
 
+
 @media only screen and (orientation: landscape), (min-width: 1224px) {
 
 	#main {
@@ -144,6 +145,151 @@ Media Queries
 	}
 
 
+	/*
+	=====
+	About
+	=====
+	*/
+
+	#about-container {
+		margin: 0;
+	}
+
+
+	.about-section-title {
+		margin: 0;
+		font-size: 2em;
+	}
+
+	.about-section-text {
+		font-size: 1em;
+		width: 550px;
+		margin-bottom: 7em;
+	}
+
+		
+	/*
+	======
+	Footer
+	======
+	*/
+
+	#email {
+		font-size: 1em;
+	}
+
+
+	/*
+	=======
+	Archive
+	=======
+	*/
+
+	#archive-container {
+		margin: 0;
+	}
+
+	.archive-month {
+		font-size: 2em;
+		width: 500px;
+		margin-top: 0;
+		margin-bottom: .5em;
+	}
+
+	.posts-from-month {
+		margin-top: 0;
+		font-size: 1em;
+		line-height: 3;
+		a {
+			border-bottom: 1px solid $primary-color;
+		}
+	}
+
+	/*
+	=======
+	Contact
+	=======
+	*/
+
+	#contact-container {
+		align-items: flex-start;
+	}
+
+	#contact-heading {
+		margin-top: 0;
+		margin-bottom: 1em;
+		font-size: 2em;
+	}
+
+	#contact-sub {
+		margin-bottom: 2em;
+		font-size: 1.3em;
+	}
+
+	#contact-form input{
+		margin-top: 0;
+		margin-bottom: 2em;
+		font-size: 1em;
+		width: 25em;
+	}
+
+	#contact-form textarea {
+		margin-top: 0;
+		margin-bottom: 1em;
+		font-size: 1em;
+	}
+
+	#contact-form [type="submit"] {
+		width: 300px;
+	}
+
+	/*
+	=====
+	Posts
+	=====
+	*/
+
+	.post-container {
+		width: 70%;
+	}
+
+	#post-banner {
+		height: 100px;
+	}
+
+	#post-title {
+		font-size: 5em;
+		margin: .5em 0;
+		align-self: flex-start;
+	}
+
+	#post-date {
+		margin-left: 0;
+	}
+
+	#post-date {
+		font-size: .8em;
+	}
+
+	.post {
+		li {
+			font-size: .9em;
+		}
+		p {
+			font-size: 1.1em;
+		}
+		h2 {
+			font-size: 2em;
+		}
+		h3 {
+			font-size: 1.5em;
+		}
+	}
+
+	.post p, .post h2, .post h3 {
+		width: 100%;
+	}
+
 }
 
 
@@ -217,160 +363,6 @@ Media Queries
 		a {
 			color: black;
 		}
-	}
-
-	/*
-	=====
-	Main
-	=====
-	*/
-
-	
-	/*
-	======
-	Footer
-	======
-	*/
-
-	#email {
-		font-size: 1em;
-	}
-
-
-
-	/*
-	=====
-	About
-	=====
-	*/
-
-	#about-container {
-		margin: 0;
-	}
-
-	.about-section-title {
-		margin: 0;
-		font-size: 2em;
-	}
-
-	.about-section-text {
-		font-size: 1em;
-		width: 550px;
-		margin-bottom: 7em;
-	}
-
-
-	/*
-	=======
-	Archive
-	=======
-	*/
-
-	#archive-container {
-		margin: 0;
-	}
-
-	.archive-month {
-		font-size: 2em;
-		width: 500px;
-		margin-top: 0;
-		margin-bottom: .5em;
-	}
-
-	.posts-from-month {
-		margin-top: 0;
-		font-size: 1em;
-		line-height: 3;
-		a {
-			border-bottom: 1px solid $primary-color;
-		}
-	}
-
-	/*
-	=======
-	Contact
-	=======
-	*/
-
-	#contact-container {
-		align-items: flex-start;
-	}
-
-	#contact-heading {
-		margin-top: 0;
-		margin-bottom: 1em;
-		font-size: 2em;
-	}
-
-	#contact-sub {
-		margin-bottom: 2em;
-		font-size: 1.3em;
-	}
-
-	#contact-form input{
-		margin-top: 0;
-		margin-bottom: 2em;
-		font-size: 1em;
-		width: 25em;
-	}
-
-	#contact-form textarea {
-		margin-top: 0;
-		margin-bottom: 1em;
-		font-size: 1em;
-	}
-
-	#contact-form [type="submit"] {
-		width: 300px;
-	}
-
-
-
-	/*
-	=====
-	Posts
-	=====
-	*/
-
-	.post-container {
-		width: 70%;
-	}
-
-	#post-banner {
-		height: 100px;
-	}
-
-	#post-title {
-		font-size: 5em;
-		margin: .5em 0;
-		align-self: flex-start;
-	}
-
-	#post-date {
-		margin-left: 0;
-	}
-
-	#post-date {
-		font-size: .8em;
-	}
-
-	.post {
-		li {
-			font-size: .9em;
-		}
-		p {
-			font-size: 1.1em;
-		}
-		h2 {
-			font-size: 2em;
-		}
-		h3 {
-			font-size: 1.5em;
-		}
-	}
-
-	.post p, .post h2, .post h3 {
-		width: 100%;
 	}
 
 }
