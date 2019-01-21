@@ -4,83 +4,20 @@ Media Queries
 =============
 */
 
-@media only screen  and (min-width : 1224px) {
 
-	/*
-	==========
-	Grid Setup
-	==========
-	*/
+@media only screen and (min-width: 768px) {
 
-	#grid-container {
-		grid-template-columns: 3fr 2.5fr;
-		grid-template-rows: 55px 1fr 55px;
-		grid-template-areas: "header nav"
-							 "main main"
-							 "footer footer";
-		min-height: 100vh;
-
+	html {
+		font-size: 14px;
 	}
 
-	/*
-	======
-	Title
-	======
-	*/
-
-	#header {
-		font-size: .3em;
-		z-index: 2;
-		display: flex;
-		align-items: center;
+	.read-more-link {
+		bottom: 4em;
 	}
+}
 
-	#title {
-		margin-left: 5em;
-	}
 
-	#header, #nav {
-		border-bottom: 1px solid #bbb;
-		//box-shadow: 0px 1px 1px #eee;
-		position: sticky;
-		top: 0;
-		background-color: rgba(255,255,255,1);
-	}
-
-	/*
-	===
-	Nav
-	===
-	*/
-
-	#nav {
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-		//rgba(52,158,122,0.8);
-		//rgba(200, 200, 200, 0.7);
-		z-index: 1;
-	}
-
-	#nav-text-container {
-		margin-top: 0;
-		font-size: .3em;
-		justify-content: flex-start;
-		align-items: center;
-	}
-
-	.nav-text {
-		margin-left: 2em;
-		a {
-			color: black;
-		}
-	}
-
-	/*
-	=====
-	Main
-	=====
-	*/
+@media only screen and (orientation: landscape), (min-width: 1224px) {
 
 	#main {
 		width: 90%;
@@ -161,7 +98,7 @@ Media Queries
 	}
 
 	#principle-preview {
-		align-self: flex-end;
+		align-self: flex-start;
 		width: 300px;
 	}
 
@@ -175,7 +112,7 @@ Media Queries
 		align-items: flex-end;
 		//width: 400px;
 		height: 10em;
-		margin: 2em auto 13em auto;
+		margin: 2em auto 16em auto;
 	}
 
 	.principle-title {
@@ -207,17 +144,6 @@ Media Queries
 		border-radius: 2px;
 	}
 
-	/*
-	======
-	Footer
-	======
-	*/
-
-	#email {
-		font-size: 1em;
-	}
-
-
 
 	/*
 	=====
@@ -229,6 +155,7 @@ Media Queries
 		margin: 0;
 	}
 
+
 	.about-section-title {
 		margin: 0;
 		font-size: 2em;
@@ -239,10 +166,20 @@ Media Queries
 		width: 550px;
 		margin-bottom: 7em;
 	}
-
+	
 	.about-section-img {
 		height: 200px;
 		width: 200px;
+
+
+	/*
+	======
+	Footer
+	======
+	*/
+
+	#email {
+		font-size: 1em;
 	}
 
 
@@ -310,8 +247,6 @@ Media Queries
 		width: 300px;
 	}
 
-
-
 	/*
 	=====
 	Posts
@@ -357,6 +292,81 @@ Media Queries
 
 	.post p, .post h2, .post h3 {
 		width: 100%;
+	}
+
+}
+
+
+@media only screen  and (min-width : 1224px) {
+
+	/*
+	==========
+	Grid Setup
+	==========
+	*/
+
+	#grid-container {
+		grid-template-columns: 3fr 2.5fr;
+		grid-template-rows: 55px 1fr 55px;
+		grid-template-areas: "header nav"
+							 "main main"
+							 "footer footer";
+		min-height: 100vh;
+
+	}
+
+	/*
+	======
+	Title
+	======
+	*/
+
+	#header {
+		font-size: .3em;
+		z-index: 2;
+		display: flex;
+		align-items: center;
+	}
+
+	#title {
+		margin-left: 5em;
+	}
+
+	#header, #nav {
+		border-bottom: 1px solid #bbb;
+		//box-shadow: 0px 1px 1px #eee;
+		position: sticky;
+		top: 0;
+		background-color: rgba(255,255,255,1);
+	}
+
+	/*
+	===
+	Nav
+	===
+	*/
+
+	#nav {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		//rgba(52,158,122,0.8);
+		//rgba(200, 200, 200, 0.7);
+		z-index: 1;
+	}
+
+	#nav-text-container {
+		margin-top: 0;
+		font-size: .3em;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.nav-text {
+		margin-left: 2em;
+		a {
+			color: black;
+		}
 	}
 
 }
