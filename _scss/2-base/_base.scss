@@ -59,7 +59,7 @@ Header
 }
 
 #title-blog {
-	font-family: 'Indie Flower', cursive;
+	font-family: $cursive-font;
 }
 
 #main-banner {
@@ -267,6 +267,7 @@ about
 		weight: 500;
 	}
 	margin-top: 2em;
+	margin-bottom: 1em;
 }
 
 .about-section-text {
@@ -276,12 +277,19 @@ about
 		size: 2.6em;
 	}
 	line-height: 1.5;
-	margin: 3em 0 2em 0;
+	margin: 1.5em 0 2em 0;
 	a {
 		text-decoration: none;
 		color: $primary-color;
 	}
 }
+
+	.about-section-img {
+		border-radius: 50%;
+		height: 400px;
+		width: 400px;
+		margin-left: 2em;
+	}
 
 /*
 =======
