@@ -6,6 +6,10 @@ Utility's are usually classes that change text, or an effect that can be reused 
 =======================================================================================
 */
 
+.green-text, .orange-text {
+	font-family: $cursive-font;
+}
+
 .green-text {
 	color: #349E7A;
 }
